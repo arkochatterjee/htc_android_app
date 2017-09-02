@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426130861637",
+    "firebase_url": "https://hind-towards-change.firebaseio.com",
+    "project_id": "hind-towards-change",
+    "storage_bucket": "hind-towards-change.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426130861637:android:fcda623720ecca7e",
+        "android_client_info": {
+          "package_name": "com.arkochatterjee.hindtowardschange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426130861637-tvoql6q6d6738vfevb4om48hn60rt48m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arkochatterjee.hindtowardschange",
+            "certificate_hash": "80d6efd54336b9f8ba38a6cb37c0e25892bde6be"
+          }
+        },
+        {
+          "client_id": "426130861637-c8amia28g2i71ts3depv2vak56ds74fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk3oLg08xNgXYfvYB7jknXFeVVAiJFSwA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426130861637-c8amia28g2i71ts3depv2vak56ds74fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

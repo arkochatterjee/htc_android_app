@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#232c4b"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/logo"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+
+        android:id="@+id/aa17"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="22dp"
+
+        android:layout_marginBottom="6dp"
+
+        android:text="HIND TOWARDS CHANGE"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aa17"
+        android:text="NON-GOVERNMENTAL ORGANIZATION"
+        android:typeface="monospace"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+</RelativeLayout>
