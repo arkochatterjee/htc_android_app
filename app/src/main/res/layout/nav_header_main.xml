@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/aa17"
         android:text="NON-GOVERNMENTAL ORGANIZATION"
-        android:typeface="monospace"
+
         android:textColor="#ffffff"
         android:gravity="center"
         android:textSize="10dp"

@@ -34,7 +34,7 @@
         app:menu="@menu/activity_main_drawer"
         app:itemTextAppearance="@style/NavigationDrawerStyle"
         app:itemTextColor="#ffffff"
-
+        app:itemIconTint="#ffffff"
         app:headerLayout="@layout/nav_header_main"
         android:layout_gravity="start">
     </android.support.design.widget.NavigationView>

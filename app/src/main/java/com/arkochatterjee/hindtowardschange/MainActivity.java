@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // FontsOverride.setDefaultFont(this, "MONOSPACE", "M_R.ttf");
+        FontsOverride.setDefaultFont(this, "MONOSPACE", "avenir.otf");
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
         View headerView = navigationView.getHeaderView(0);
@@ -106,8 +106,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case R.id.credits_id:
                         fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.main_container,new home_fragment());
+                        fragmentTransaction.replace(R.id.main_container,new Credits_Fragment());
                         fragmentTransaction.commit();
+
+                        getSupportActionBar().setTitle("Credits");
                         // ((TextView) findViewById(R.id.main_toolbar_title)).setText("SPONSERS");
                         //getSupportActionBar().setTitle("SPONSERS");
                         item.setChecked(true);
