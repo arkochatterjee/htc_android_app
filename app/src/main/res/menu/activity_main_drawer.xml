@@ -5,34 +5,39 @@
 
         <item
             android:id="@+id/home_id"
-            android:title="HOME"
             android:icon="@drawable/home_icon"
+            android:title="HOME"
 
             ></item>
         <item
             android:id="@+id/about_id"
-            android:title="ABOUT"
             android:icon="@drawable/about_icon"
+            android:title="ABOUT"
             ></item>
         <item
             android:id="@+id/events_id"
-            android:title="EVENTS"
             android:icon="@drawable/star"
+            android:title="EVENTS"
             ></item>
         <item
             android:id="@+id/member_id"
-            android:title="MEMBERS"
             android:icon="@drawable/team"
+            android:title="MEMBERS"
             ></item>
         <item
             android:id="@+id/contactus_id"
-            android:title="CONTACT"
             android:icon="@drawable/contactus"
+            android:title="CONTACT"
             ></item>
         <item
             android:id="@+id/credits_id"
-            android:title="CREDITS"
             android:icon="@drawable/dev"
+            android:title="CREDITS"></item>
+
+        <item
+            android:id="@+id/logout_id"
+            android:icon="@drawable/log_out"
+            android:title="Logout"
             ></item>
 
     </group>

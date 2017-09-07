@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#212a49"
     android:padding="8sp"
-    android:layout_height="match_parent"
 
-   >
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-
         android:background="#212a49"
+
+        android:orientation="vertical"
         android:padding="10dp">
 
 <TextView
@@ -22,7 +21,9 @@
     android:layout_height="wrap_content"
     android:text="ABOUT US:
 The prime motive of our NGO, is to bring about change, to help those who can't help themselves and to set a great example for the people to follow!"
-    android:textColor="#fff"/>
+    android:textColor="#fff"
+    android:textSize="16sp"
+    android:typeface="monospace" />
 
 
 
@@ -31,9 +32,11 @@ The prime motive of our NGO, is to bring about change, to help those who can't h
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="MISSION:
+            android:text="\n\nMISSION:
 To bring change in the society, uproot public ignorance, spread awareness ,support and help the needy ones. To convert our INDIA as our 'Dream INDIA'! *JAI HIND*"
-            android:textColor="#fff"/>
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:typeface="monospace" />
 
     </LinearLayout>
 </ScrollView>

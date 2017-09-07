@@ -1,8 +1,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#232c4b"
     tools:context="com.rm.dell.aaruush17.credits_fragment">
 
@@ -17,11 +17,12 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="12sp"
-        android:textSize="22sp"
+        android:gravity="center"
+        android:text="DEVELOPER"
         android:textColor="#fff"
-        android:text="DEVELOPERS" />
+        android:textSize="22sp"
+        android:typeface="monospace" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/logo"
@@ -37,20 +38,22 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="12sp"
-        android:textSize="22sp"
+        android:gravity="center"
+        android:text="Arko Chatterjee"
         android:textColor="#fff"
-        android:text="Arko Chatterjee" />
+        android:textSize="22sp"
+        android:typeface="monospace" />
     <TextView
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="2sp"
-        android:textSize="16sp"
+        android:gravity="center"
+        android:text="Lead Developer"
         android:textColor="#fff"
-        android:text="Lead Developer" />
+        android:textSize="16sp"
+        android:typeface="monospace" />
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"
